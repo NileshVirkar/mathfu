@@ -33,7 +33,7 @@ LOCAL_STATIC_LIBRARIES:=\
 	android_native_app_glue \
 	libgtest \
 	$(MATHFU_LIB)
-LOCAL_CFLAGS:=-Wall -Werror
+LOCAL_CFLAGS:=-Wall
 LOCAL_ARM_MODE:=arm
 include $(BUILD_SHARED_LIBRARY)
 

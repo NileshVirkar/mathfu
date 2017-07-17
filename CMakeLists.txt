@@ -106,7 +106,7 @@ function(mathfu_enable_warnings target)
   elseif(CMAKE_COMPILER_IS_GNUCC OR CMAKE_COMPILER_IS_GNUCXX OR
       CMAKE_COMPILER_IS_CLANGXX)
     # Set the maximum warning level for gcc.
-    target_compile_options(${target} PRIVATE -Wall -Wextra -Werror
+    target_compile_options(${target} PRIVATE -Wall -Wextra
       -Wno-long-long -Wno-variadic-macros)
   endif()
 endfunction()
