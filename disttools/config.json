@@ -19,7 +19,7 @@
     },
     {
       "name": "fplutil",
-      "url": "http://github.com/google/fplutil.git",
+      "url": "https://github.com/NileshVirkar/fplutil.git",
       "branch": "develop",
       "is_library": 1,
       "third_party": 0,
