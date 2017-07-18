@@ -1,8 +1,8 @@
 {
   "package": {
     "name": "mathfu",
-    "url": "http://github.com/google/mathfu.git",
-    "branch": "develop",
+    "url": "https://github.com/NileshVirkar/mathfu.git",
+    "branch": "master",
     "is_library": 1,
     "third_party": 0,
     "push": 1
